@@ -1,5 +1,5 @@
-create vdisk file="C:\projects\uefit\image.vhd" maximum=64 type=fixed
-select vdisk file="C:\projects\uefit\image.vhd"
+create vdisk file="C:\build\image.vhd" maximum=64 type=fixed
+select vdisk file="C:\build\image.vhd"
 attach vdisk
 create partition primary
 format fs=fat32 quick label="UEFI"
