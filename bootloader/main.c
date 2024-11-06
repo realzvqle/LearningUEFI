@@ -9,7 +9,6 @@
 
 EFI_STATUS EfiEntry(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
 {
-    EFIInitMsg();
     //SystemTable->BootServices->Stall(100000);
     while(1){continue;}
     return EFI_SUCCESS;
