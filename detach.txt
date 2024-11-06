@@ -1,0 +1,3 @@
+select vdisk file="C:\projects\uefit\image.vhd"
+detach vdisk
+exit
