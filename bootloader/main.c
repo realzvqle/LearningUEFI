@@ -12,6 +12,7 @@ EFI_STATUS EfiEntry(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
     SystemTable->ConOut->SetMode(SystemTable->ConOut, 0);
     SystemTable->ConOut->ClearScreen(SystemTable->ConOut);
     SystemTable->ConOut->EnableCursor(SystemTable->ConOut, TRUE);
+    SystemTable->ConOut->OutputString(SystemTable->ConOut, L"Hi Some Stuff!\n\n");
     while(1){
         EFI_INPUT_KEY s;
         SystemTable->ConIn->ReadKeyStroke(SystemTable->ConIn, &s);

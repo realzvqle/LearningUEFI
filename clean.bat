@@ -1,6 +1,6 @@
 @echo off
 
-
+rd root /s /q
 cd bootloader
 start clean.bat
 cd ..
