@@ -1,2 +1,2 @@
 CompileFlags:
-  Add: [-I/efitoolkit/EFI_Toolkit_2.0/include]
+  Add: [-I/build/efi/includes]
